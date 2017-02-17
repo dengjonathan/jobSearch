@@ -1,8 +1,8 @@
 const expect = require('chai').expect;
 
-const {ACTIVITIES, findJob} = require('../jobSearch');
+const {ACTIVITIES, findJob} = require('../solutions/jobSearchBackTrack');
 
-describe('findJob function', () => {
+describe('findJob function backtracking', () => {
 
   it('should return an empty array if no activities available', () => {
     expect(findJob(10, [])).to.eql([]);

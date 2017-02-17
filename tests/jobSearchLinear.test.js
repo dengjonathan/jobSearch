@@ -1,6 +1,6 @@
 const expect = require('chai').expect;
 
-const {ACTIVITIES, findJob} = require('../jobSearch');
+const {ACTIVITIES, findJob} = require('../solutions/jobSearchLinear');
 
 describe('findJob function', () => {
 
