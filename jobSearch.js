@@ -20,7 +20,13 @@ const ACTIVITIES = [
 /**
  * Returns array of type string with names of activites that maximize XP
  * @param {number} time
+ * @param {Array<Activity>} activities
  */
-const findJob = time => {
+const findJob = (time, activities) => {
   /* How do I optimize this?!!! */
+};
+
+module.exports = {
+  findJob,
+  ACTIVITIES
 };
