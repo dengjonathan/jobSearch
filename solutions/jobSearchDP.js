@@ -66,3 +66,8 @@ recursive calls and each scope stores an array with up to n items.
 */
 console.log(findJob(10, ACTIVITIES)); 
 //=> [ 'systems design', 'making CSS codepens', 'algorithms' ]
+
+module.exports = {
+  findJob,
+  ACTIVITIES
+};

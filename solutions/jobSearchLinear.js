@@ -13,7 +13,7 @@ const ACTIVITIES = [
  */
 const findJob = (time, activities) => {
   let maxVal = -Infinity;
-  let max = null;
+  let max = [];
 
   // recursively find all combinations of activities
   // if the total XP of any combination is greater than max, store in closure
@@ -44,3 +44,8 @@ const findJob = (time, activities) => {
 
 console.log(findJob(10, ACTIVITIES)); 
 //=> [ 'algorithms', 'systems design', 'making CSS codepens' ]
+
+module.exports = {
+  findJob,
+  ACTIVITIES
+};

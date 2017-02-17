@@ -53,3 +53,8 @@ const findJob = (time, activities) => {
 // The space complexity is O(n!)
 console.log(findJob(10, ACTIVITIES)); 
 //=> [ 'algorithms', 'systems design', 'making CSS codepens' ]
+
+module.exports = {
+  findJob,
+  ACTIVITIES
+};
